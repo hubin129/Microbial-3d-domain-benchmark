@@ -1,0 +1,11 @@
+cooler
+coolpuppy==1.1.0
+h5py
+matplotlib
+numpy
+openpyxl
+pandas
+psutil
+scikit-image
+scipy
+seaborn
