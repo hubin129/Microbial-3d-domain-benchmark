@@ -1,7 +1,0 @@
-Species(物种)	Data_Type(数据类型)	Source_Publication_Accession(来源出版物与登录号)	GEO_BioProject	Biological_Samples(生物学样本)	Conditions_Used(使用条件)	Resolution_bp(分辨率)	Binning_Normalization(分箱与归一化)
-酿酒酵母 S. cerevisiae BY4741	Hi-C	BioProject PRJNA1073072 (NCBI SRA, 野生型BY4741)	PRJNA1073072	野生型BY4741	Hi-C 500/1000/2000/5000/10000 bp	500, 1000, 2000, 5000, 10000	实验室完成前期处理；本研究从ICE平衡后的接触矩阵开始，按目标分辨率分箱并转换为各方法所需格式
-酿酒酵母 S. cerevisiae BY4741	Micro-C	Hsieh et al. 2016; Nat Methods 13:1009-1011 (Micro-C XL)	GSE85220	野生型BY4741 Micro-C XL	Micro-C 200/500 bp	200, 500	按指定分辨率分箱；使用ICE平衡矩阵
-酿酒酵母 S. cerevisiae BY4741	RNA-seq	BioProject PRJNA1073072 (与Hi-C来源匹配)	PRJNA1073072	野生型BY4741，3个重复	基因表达与高表达基因功能分析 (Fig. 4a,b,d)	gene level	实验室完成前期处理；3个重复经STAR比对和RSEM定量后，在基因层面对TPM取平均
-酿酒酵母 S. cerevisiae BY4741	ATAC-seq	BioProject PRJNA1073072 (与Hi-C来源匹配)	PRJNA1073072	野生型BY4741	边界metaprofile和随机背景验证 (Fig. 4c, 补充图S2)	1 (bigWig单碱基分辨率)	实验室提供处理后bigWig；本研究按接触图分辨率提取真实边界和随机位置两侧各20个bin，使用中心相邻2个bin进行检验
-大肠杆菌 E. coli K-12 MG1655	Hi-C	Lioy et al. 2018; Cell 172:771-783.e18	GSE107301	野生型MG1655 (多突变体研究的WT条件)	Hi-C 500/1000/2000/5000/10000 bp	500, 1000, 2000, 5000, 10000	NC_000913.3参考基因组；按指定分辨率分箱；使用ICE平衡矩阵
-大肠杆菌 E. coli K-12 MG1655	Micro-C	Gavrilov et al. 2025; Nature 645:1060-1070	GSE272161	野生型MG1655，正常生长条件	Micro-C 200/500 bp	200, 500	NC_000913.3参考基因组；按指定分辨率分箱；使用ICE平衡矩阵
