@@ -1,0 +1,23 @@
+module	script	role	primary_input	primary_output	status
+M1	tools/runtime_monitor.py	Monitor wall-clock time and parent-plus-descendant RSS	caller command	TSV log	portable protocol utility
+M3	progress/2-analyse/3-domain-level.py	Domain deduplication, sorting and hierarchy	progress/1-TAD-data	progress/1-TAD-level-data	current logic, portable path patch
+M3	progress/2-analyse/A0-runtime-memory-analysis.py	Resource summary	resource logs	progress/3-result/0-runtime-memory	current main script, portable path patch
+M3	progress/2-analyse/A1b-tad-result-overview.py	Coverage and output availability	standardized domains and summary workbook	progress/3-result/0-tad-result-overview	current main script, portable path patch
+M3	progress/2-analyse/A1c-tad-size-level-overview.py	Domain size and hierarchy summary	progress/1-TAD-level-data	progress/3-result/3-level/A1c-size-level-overview	current main script
+M4	progress/2-analyse/A4x-foldchange-reanalysis-exact-condition.py	Fold-change structural validation	TADs and balanced cool files	progress/3-result/4-foldchange/foldchange_reanalysis_exact_condition	current main script
+M4	progress/2-analyse/A10t-centroid-distance-local-background-validation.py	EVRC local-background validation	TADs and EVRC PDB	progress/3-result/evrc_reconstruction_reanalysis	current main script
+M4	progress/2-analyse/A10u-merge-local-background-sensitivity.py	EVRC random-count sensitivity summary	A10t outputs	EVRC sensitivity tables	current main script
+M4	progress/2-analyse/A9d-coolpup-chromosome-domain-structure-validation.py	Chromosome-level coolpup validation	progress/1-coolpup-data	progress/3-result/9-coolpup/A9d-coolpup-chromosome-domain-structure-validation	current main script
+M4	progress/2-analyse/A9e-coolpup-chromosome-domain-structure-figures.py	coolpup validation figures	A9d outputs	coolpup figure files	current supporting script
+M4	progress/2-analyse/A9f-coolpup-method-share-figure.py	coolpup method count and share figures	A9d outputs	coolpup summary tables and figures	current supporting script
+M5	progress/2-analyse/A2b-jaccard-exact-same-condition.py	Boundary and Coverage Jaccard	matched TAD outputs	progress/3-result/5-jaccard	current main script
+M5	progress/2-analyse/A3b-moc-coverage-same-condition.py	MOC and coverage correspondence	matched TAD outputs	progress/3-result/6-MOC-coverage	current main script
+M5	progress/2-analyse/A4b-consensus-exact-same-condition.py	Strict-majority Consensus F1	matched TAD outputs	progress/3-result/7-consensus	current main script
+M5	progress/2-analyse/A8c-ssim-same-condition.py	SSIM of hierarchical occupancy matrices	progress/1-SSIM-data	progress/3-result/8-ssim	current main script
+M5	progress/2-analyse/A12-structure-robustness-fair-same-condition.py	Matched-condition concordance integration	individual concordance tables	progress/3-result/structure_robustness_fair_same_condition	current main script
+M6	progress/2-analyse/A5-prep-canonical-gene-expression.py	Canonical gene-expression mapping	GFF and expression tables	progress/1-expression-data/gene-level	current main script
+M6	progress/2-analyse/A5m-boundary-3bin-gene-level-expression.py	Boundary-versus-interior expression	canonical genes and TADs	progress/3-result/8-expression/boundary_3bin_expression_by_method	current main script
+M6	progress/2-analyse/A14-atac-random-background.py	Boundary-versus-random ATAC analysis	bigWig and TADs	progress/3-result/13-atac-random-background	current main script
+M6	progress/2-analyse/A5ab-by4741-global-top10-boundary-high-gene-go-kegg-enrichment.py	High-expression gene GO/KEGG enrichment	canonical genes, TADs and annotations	progress/3-result/8-expression/by4741_global_top10_boundary_high_gene_go_kegg_enrichment	current main script
+M7	progress/2-analyse/A13-comprehensive-method-recommendation.py	Evidence-category matrix	canonical upstream summaries	progress/3-result/12-comprehensive-recommendation/comprehensive_ranking	current main script
+M7	progress/2-analyse/A13c-method-recommendation-compact-guide.py	Resource- and goal-stratified usage guide	A13 outputs	compact recommendation guide	current main script
