@@ -1,0 +1,8 @@
+data_role	example_path
+balanced_cool	progress/1-balanced-cool/BY4741/HiC/1000/chr1_1000.cool
+raw_domain_bed	progress/1-TAD-data/BY4741/OnTAD/HiC/1000/chr1.bed
+leveled_domain_bed	progress/1-TAD-level-data/BY4741/OnTAD/HiC/1000/chr1.bed
+evrc_pdb	progress/1-EVRC-data/BY4741/HiC/1000/chr1/model.pdb
+coolpup_clpy	progress/1-coolpup-data/BY4741/2-coolpup/HiC/1000/OnTAD/HiC_chr1_1000.clpy
+canonical_expression	progress/1-expression-data/gene-level/BY4741_S288C_gene_expression_annotation.tsv
+atac_bigwig	progress/1-expression-data/ATAC/A5-1.rmdup.last.bw
